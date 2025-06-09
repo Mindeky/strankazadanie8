@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inception - Casting</title>
+    <link rel="stylesheet" type="text/css" href="combined.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="efects.js"></script>
+
+</head>
+<body>
+    
+    <!--Hlavicka -->    
+    <header>
+        <img src="headerObrazok.jpg" alt="header">
+    </header>
+
+    <!--Horna navigacia na stranke -->    
+    <div class="navigacia">
+        <a href="index.html"><img class="logo" src="logoNaStranku.png" alt="Logo"></a>
+        <div class="menu-toggle" id="mobile-menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="uvod.html">Úvod</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="galeria.html">Galéria</a>
+            <a href="onas.html">Naše štúdio</a>
+        </div>
+    </div>
+    
+    <!-- Galéria -->
+    <div class="galerka">
+        <div class="trailer-section">
+            <h2 class="galerkaPismo">Trailer filmu:</h2>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/YoHD9XEInc0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <p class="galerkaPismo">Plagáty:</p>
+        <div class="image-grid plagaty">
+            <img src="obrazok1.jpg" alt="plagat1" class="gallery-image" data-group="plagaty">
+            <img src="plagat2.jpg" alt="plagat2" class="gallery-image" data-group="plagaty">
+            <img src="plagat3.jpg" alt="plagat3" class="gallery-image" data-group="plagaty">
+            <img src="plagat4.jpg" alt="plagat4" class="gallery-image" data-group="plagaty">
+        </div>
+        
+        <p class="galerkaPismo">Scény:</p>
+        <div class="image-grid sceny">
+            <img src="obrazok2.jpg" alt="obrazok1" class="gallery-image" data-group="sceny">
+            <img src="obrazok3.jpg" alt="obrazok2" class="gallery-image" data-group="sceny">
+            <img src="obrazok4.jpg" alt="obrazok3" class="gallery-image" data-group="sceny">
+            <img src="obrazok5.jpg" alt="obrazok5" class="gallery-image" data-group="sceny">
+            <img src="obrazok6.jpg" alt="obrazok6" class="gallery-image" data-group="sceny">
+            <img src="obrazok7.jpg" alt="obrazok7" class="gallery-image" data-group="sceny">
+            <img src="obrazok8.jpg" alt="obrazok8" class="gallery-image" data-group="sceny">
+            <img src="obrazok9.jpg" alt="obrazok9" class="gallery-image" data-group="sceny">
+            <img src="obrazok0.jpg" alt="obrazok0" class="gallery-image" data-group="sceny">
+        </div>
+    </div>
+
+    <!-- Modálne okno -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+    </div>
+
+    <!-- Pata --->
+    <footer>
+        <p>© 2025 Inception Casting. Všetky práva vyhradené.</p>
+    </footer>
+</body>
+</html>
